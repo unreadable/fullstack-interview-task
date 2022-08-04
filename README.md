@@ -35,8 +35,8 @@ Q: How would you make this solution scale to millions of records?
     - Initially by using a cluster module such as PM2 and if it's not enough, horizontally scaling.    
 
 Q: What else would you have liked to improve given more time?
-    - Adding Typescript to ease development, Docker to ease devops ans Swagger UI to better understand
-    the API.
+    - Adding Typescript to ease development, Docker to ease devops, Swagger UI to better understand
+    the API for newcomers and style this README.md to look reasonable.
 
 ### Existing routes
 We have provided a series of routes 
