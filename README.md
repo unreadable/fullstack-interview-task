@@ -1,6 +1,6 @@
 # Moneyhub Tech Test - Investments and Holdings
 
-This repository serves as a solution for the Moneyhub tech challenge.
+This repository serves as a quick solution for the Moneyhub tech challenge.
 
 ## Getting Started
 
@@ -9,13 +9,22 @@ To run the app, execute the following commands:
     $ git clone https://github.com/unreadable/fullstack-interview-task.git
     $ cd fullstack-interview-task
     $ npm install --prefix admin
+    $ npm install --prefix investments
     $ npm install --prefix financial-companies
-    $ npm install --prefix financial-companies
-    # to this for inside service: admin, i
+    # do this for every microservice
     $ npm start
 
 The services will try to use ports 8081, 8082 and 8083.
 You can query directly into your browser of choice.
+
+## Testing
+
+This is a minimal set of unit tests as a proof of concept.
+To perform unit testing, run the following commands inside root directory:
+
+    $ cd admin
+    $ npm test
+
 
 ## Q&A
 
